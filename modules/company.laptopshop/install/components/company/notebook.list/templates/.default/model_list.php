@@ -9,7 +9,7 @@ use \Bitrix\Main\Localization\Loc;
         <?php foreach ($arResult['DATA'] as $model): ?>
             <div class="col-md-4 mb-4">
                 <a href="<?= $arParams['SEF_FOLDER'] . $arResult['VARIABLES']['BRAND'] . '/' . $model['ID'] . '/' ?>"
-                   class="list-link">
+                   class="list-link text-primary text-decoration-none">
                     <div class="card">
                         <div class="card-body text-center">
                             <h5 class="card-title"><?= $model['NAME'] ?></h5>

@@ -8,7 +8,7 @@ use \Bitrix\Main\Localization\Loc;
     if (!empty($arResult['DATA'])): ?>
         <?php foreach ($arResult['DATA'] as $manufacturer): ?>
             <div class="col-md-4 mb-4">
-                <a href="<?= $arParams['SEF_FOLDER'] . $manufacturer['ID'] . '/' ?>" class="list-link">
+                <a href="<?= $arParams['SEF_FOLDER'] . $manufacturer['ID'] . '/' ?>" class="list-link text-primary text-decoration-none">
                     <div class="card hover-effect">
                         <div class="card-body text-center">
                             <h5 class="card-title"><?= $manufacturer['NAME'] ?></h5>
